@@ -2,7 +2,7 @@ from transformers import pipeline
 from huggingface_hub import login
 
 # Log in with your Hugging Face token
-login(token='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')  # Replace with your actual token
+login(token='your_token')  # Replace with your actual token
 
 # Load the translation model
 translator = pipeline("translation", model="Helsinki-NLP/opus-mt-en-fr")
